@@ -20,7 +20,7 @@ namespace Ejercicio_de_Conexion
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) 
         {
             
                 string strConexion = @"Server=(LocalDB)\MSSQLLocalDB;Database=bd_local;Trusted_Connection=True;";
