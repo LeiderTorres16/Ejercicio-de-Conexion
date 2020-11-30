@@ -23,7 +23,7 @@ namespace Ejercicio_de_Conexion
         private void button2_Click(object sender, EventArgs e) 
         {
             
-                string strConexion = @"Server=(LocalDB)\MSSQLLocalDB;Database=bd_local;Trusted_Connection=True;";
+                string strConexion = @"Server=(LocalDB)\MSSQLLocalDB;Database=master;Trusted_Connection=True;";
                 try
                 {
                     using (Connexion = new SqlConnection(strConexion))
